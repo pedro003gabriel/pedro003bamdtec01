@@ -1,0 +1,134 @@
+body {
+
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.header {
+background-color: #232323;
+color: white;
+overflow: auto;
+border-bottom: 3px solid orange;
+padding:30px 0 30px 0;
+}
+
+.conteiner{
+    width: 80%;
+    margin: auto;
+
+
+}
+
+.navbar {
+    list-style: none;
+    float: right;
+    color: rgb(255, 214, 110);
+}
+
+
+
+.titulo {
+    margin: 0;
+    float: left;
+    color: orangered;
+}
+
+.navbar li {
+    float: left;
+    margin-left: 10px;
+    text-transform: uppercase;
+    
+}
+
+.navbar li a:hover{
+    color:orangered;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+.destaque{
+    color: rgba(255, 162, 0, 0.913);
+
+}
+a{
+    text-decoration: none;
+    color:rgba(255, 162, 0, 0.913);
+}
+a:hover{
+    color: green;
+}
+
+
+/* banner */
+
+.banner{
+    text-align: center;
+    background-color: #b1b1b1;
+    background-image: url(imgem/banner-fundo-small.jpeg);
+    background-repeat: no-repeat ;
+    background-size: cover ;
+    height: 300px;
+
+}
+
+.banner h1{
+    margin: 0;
+    font-size: 50px;
+    padding-top: 100px;
+
+}
+
+.banner h3{
+    color: #555555;
+
+
+}
+.saiba-mais button{
+    border: 0;
+    background-color: orangered;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    margin-top: 30px;
+    
+    
+}
+
+.saiba-mais{
+    text-align: center;
+    background-color:#232323 ;
+    height: 90px;
+}
+/* missao viao valores */
+
+.box img{
+    height: 100px;
+}
+
+.box{
+    border: 3px solid orange;
+    overflow: auto;
+ }
+
+.box-item{
+    /* border: 3px solid orangered; */
+    float: left;
+    text-align: center;
+    width: 27%;
+    padding: 3%;
+ }
+
+/* footer */
+
+.footer{
+    text-align: center;
+    background-color: orangered;
+    height: 90px;
+}
+
+.footer h3{
+    margin: 0;
+    padding-top: 40px;
+    font-weight: 100;
+    color: white;
+}
